@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="catalog-index">
+		<form action="">
+			<label for="sorting">Сортировка:</label><br>
+			<select name="sorting" id="sorting" class="wrap">
+				<option value="по популярности">По популярности</option>
+			</select>
+			<fieldset>
+				<label for="price">ЦенаЖ 100 руб. -500руб.</label><br>
+				<input type="range" id="price" class="wrap">
+			</fieldset>
+			<fieldset>
+				<label for="fat">Жирность:</label><br>
+				<input type="radio" id="fat">0%</input>
+				<input type="radio" id="fat">до 10%</input>
+				<input type="radio" id="fat">до 30%</input>
+				<input type="radio" id="fat">выше 30%</input>
+			</fieldset>
+		</form>
+	</div>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
